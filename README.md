@@ -15,17 +15,6 @@
 
 ---
 
-## 🥭 babjib (밥집)
-
-> 음식 이름을 말하면 집밥 레시피 + 서울 맛집 3곳을 찾아준다.
-
-- 폴더: [`babjib/`](./babjib/SKILL.md)
-- 출처: [rlxo6690-hub/mangohada](https://github.com/rlxo6690-hub/mangohada)
-- 트리거: 음식 이름 ("양념치킨"), "[음식] 레시피", "[음식] 맛집" 등
-- 동작: 웹검색 기반 실전 레시피 + 네이버 블로그/지역검색으로 교차 검증한 서울 맛집 3곳
-
----
-
 ## ✍️ 블로그 (커스텀 커맨드)
 
 > `/블로그` — 망고하다 브랜드 카테고리 기반 블로그 주제 + 내용 요약 생성
@@ -58,7 +47,6 @@ git clone https://github.com/cvb3016-afk/mangohada-skill.git
 
 # 스킬
 cp -r mangohada-skill/메일-요약-알림 ~/.claude/skills/메일-요약-알림
-cp -r mangohada-skill/babjib ~/.claude/skills/babjib
 cp -r mangohada-skill/voca-learner ~/.claude/skills/voca-learner
 
 # 커맨드
