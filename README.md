@@ -38,6 +38,17 @@
 
 ---
 
+## 📚 voca-learner
+
+> 노션에 업무 용어를 저장하면 매일 오전 8:30 카카오톡 퀴즈로 복습시켜주는 개인 지식 관리 스킬.
+
+- 폴더: [`voca-learner/`](./voca-learner/SKILL.md)
+- 출처: [plower344-spec/mangohada-3-](https://github.com/plower344-spec/mangohada-3-)
+- 트리거: 업무 용어 뜻 질문("IDI가 뭐야?") → 답변 후 노션 자동 저장 / "저장해줘" / "오늘 복습"
+- 동작: 노션 DB에 용어 기록 → 간격 반복(1일→3일→7일→14일→30일)으로 복습 예정일 자동 계산 → 카카오톡 나에게 보내기로 퀴즈 발송
+
+---
+
 ## 설치법
 
 스킬은 `~/.claude/skills/`, 커맨드는 `~/.claude/commands/`에 넣어야 인식돼요 (폴더가 다름).
@@ -48,6 +59,7 @@ git clone https://github.com/cvb3016-afk/mangohada-skill.git
 # 스킬
 cp -r mangohada-skill/메일-요약-알림 ~/.claude/skills/메일-요약-알림
 cp -r mangohada-skill/babjib ~/.claude/skills/babjib
+cp -r mangohada-skill/voca-learner ~/.claude/skills/voca-learner
 
 # 커맨드
 cp mangohada-skill/commands/블로그.md ~/.claude/commands/블로그.md
